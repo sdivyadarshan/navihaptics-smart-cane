@@ -1,0 +1,10 @@
+Function,Component Pin,Raspberry Pi Pico GPIO,Notes
+Ultrasonic trigger,TRIG,GP2,Output
+Ultrasonic echo,ECHO,GP3,Input through 5V-to-3.3V level shifter or divider
+Servo signal,SIGNAL,GP4,PWM-capable GPIO
+Left vibrator driver,BC547 base through 1k resistor,GP6,Do not connect motor directly to GPIO
+Forward vibrator driver,BC547 base through 1k resistor,GP7,Do not connect motor directly to GPIO
+Right vibrator driver,BC547 base through 1k resistor,GP8,Do not connect motor directly to GPIO
+Buzzer positive,BUZZER +,GP15,For low-current active buzzer only; use a driver if required
+Controller supply,VSYS/VBUS,Board power input,Use a regulated and current-capable supply
+Controller ground,GND,GND,Common ground with peripheral supplies
